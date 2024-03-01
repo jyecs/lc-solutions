@@ -2,6 +2,15 @@
 Small note that I don't really know exactly how import/export works.
 Generally if this was Java, I would have overloaded the isHappy() function instead.
 When I overloaded the function, the Jest testing would not work correctly.
+
+Problem: A number is happy if the squared sum of digits is eventually equal to 1;
+Ex: 19 = 1^2 + 9^2
+    82 => 68
+    68 => 100
+    100 => 1
+    so 19 is happy.
+
+Ex: 2 is not happy.
 */
 function isHappy(n) {
     return isHappyRecursive(n, []);

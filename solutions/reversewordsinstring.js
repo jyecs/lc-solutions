@@ -1,3 +1,9 @@
+/*
+Problem: Given a String, reverse the words in it. Any extra spaces in the string
+         should be removed.
+Ex: "Hello World" => "World Hello"
+    " The   sky is blue   " => "blue is skye The".
+*/
 function reverseWords(s) {
     const reversedArray = s.split(" ").reverse();
     // removes extra "" terms from the split.
