@@ -7,3 +7,7 @@ test("Only one word returns correct length", ()=> {
 test("Multiple words returns correct length", ()=> {
     expect(lengthOfLastWord("This will return four")).toBe(4);
 });
+
+test("Multiple words with padding", ()=> {
+    expect(lengthOfLastWord(" This should be five, just kidding  ")).toBe(7);
+})
